@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JudeMakesLuts</title>
+</head>
+<body>
+    <script>
+        function redirectToNewPage(num) {
+          window.location.href = "/cart.html";
+          localStorage.setItem("LutName",num);
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <h1>Cinama Quality Luts</h1>
+    <h3>Elevate Your Visuals with Unseen Color Presets</h3>
+    <img src="Lut1.png" alt="Lut1" class="center"> 
+    <button onclick="redirectToNewPage(id)" id="Lut1"type="button" class="Button">BUY</button> 
+</body>
+</html>
